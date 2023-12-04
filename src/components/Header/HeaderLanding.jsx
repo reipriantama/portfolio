@@ -13,7 +13,7 @@ const HeaderLanding = () => {
               <Nav.Link href="#home">HOME</Nav.Link>
               <Nav.Link href="#link">ABOUT</Nav.Link>
               <Nav.Link href="#link">PROJECT</Nav.Link>
-              <Nav.Link href="#link">CONTACT</Nav.Link>
+              {/* <Nav.Link href="#link">CONTACT</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

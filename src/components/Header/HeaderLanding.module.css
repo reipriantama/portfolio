@@ -1,0 +1,73 @@
+/* HeaderLanding.module.css */
+.wrapHeader {
+  margin: auto;
+}
+
+.navBar {
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 120px;
+  padding-right: 100px;
+}
+
+.navLink {
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Sesuaikan dengan jarak garis dari teks */
+  left: 0;
+  width: 0;
+  height: 2px; /* Sesuaikan dengan ketebalan garis yang diinginkan */
+  background-color: orange; /* Warna kuning */
+  transition: width 0.3s ease-in-out;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.wrapSection {
+  background-color: black;
+  padding-left: 60px;
+}
+
+.welcomeName {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.wrapIcon {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  background-color: black;
+  color: white;
+  font-size: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconDecoration {
+  cursor: pointer;
+}
+
+.iconDecoration:hover {
+    color: orange; /* Ubah warna sesuai yang diinginkan saat dihover */
+    /* Atau Anda bisa menambahkan efek lain seperti scale atau transisi di sini */
+  }

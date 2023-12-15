@@ -92,7 +92,6 @@ const HeaderLanding = () => {
       <div className={styles.wrapIcon}>
         <IoIosArrowDown className={styles.iconDecoration} />
       </div>
-      {/* asd */}
     </div>
   );
 };

@@ -40,7 +40,7 @@
 
 .wrapSection {
   background-color: black;
-  padding-left: 60px;
+  padding-left: 100px;
 }
 
 .welcomeName {
@@ -68,6 +68,6 @@
 }
 
 .iconDecoration:hover {
-    color: orange; /* Ubah warna sesuai yang diinginkan saat dihover */
-    /* Atau Anda bisa menambahkan efek lain seperti scale atau transisi di sini */
-  }
+  color: orange; /* Ubah warna sesuai yang diinginkan saat dihover */
+  /* Atau Anda bisa menambahkan efek lain seperti scale atau transisi di sini */
+}

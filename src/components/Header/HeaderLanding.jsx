@@ -8,6 +8,11 @@ const HeaderLanding = () => {
   const speed = 150; // Kecepatan mengetik (ms)
   const resetTime = 3000; // Waktu untuk reset teks (ms)
 
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  };
+
   useEffect(() => {
     let currentIndex = 0;
     let typingInterval;
@@ -89,7 +94,7 @@ const HeaderLanding = () => {
           </div>
         </div>
       </section>
-      <div className={styles.wrapIcon}>
+      <div className={styles.wrapIcon} onClick={scrollToAbout}>
         <IoIosArrowDown className={styles.iconDecoration} />
       </div>
     </div>

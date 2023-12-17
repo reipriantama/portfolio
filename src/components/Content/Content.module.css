@@ -1,0 +1,110 @@
+.aboutBackground {
+  background-color: black;
+  color: white;
+}
+
+.aboutTitle {
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.aboutContainer {
+  display: flex;
+  margin-top: 45px;
+  padding-bottom: 50px;
+  font-size: medium;
+  /* justify-content: space-around; */
+}
+
+.aboutLeft {
+  height: auto;
+  display: block;
+
+  margin-left: 100px;
+
+  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; /* Berubah: 'opacity' dan 'transform' */
+  opacity: 0; /* Awalnya akan disembunyikan */
+  transform: translateY(20px);
+}
+
+.aboutLeft.show {
+  opacity: 1; /* Menampilkan konten teks */
+  transform: translateY(0); /* Kembali ke posisi normal */
+}
+
+.aboutRight {
+  width: 700px;
+
+  letter-spacing: 2px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  text-align: justify;
+
+  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; /* Berubah: 'opacity' dan 'transform' */
+  opacity: 0; /* Awalnya akan disembunyikan */
+  transform: translateY(20px);
+}
+
+.aboutRight.show {
+  opacity: 1; /* Menampilkan konten teks */
+  transform: translateY(0); /* Kembali ke posisi normal */
+}
+
+.rightIcon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rightIcon svg {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.iconSocialMedia {
+  cursor: pointer;
+}
+
+.iconSocialMedia:hover {
+  color: orange;
+}
+
+.skillsWrap {
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skillsTitle {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-transform: uppercase;
+}
+
+.skillsTitle {
+  margin-bottom: 50px;
+}
+
+.skillsIcon {
+  font-size: 100px;
+}
+
+.skillsIcon:hover {
+  color: orange;
+  transform: scale(1.2);
+}
+
+.textIcon {
+  font-size: 19px;
+  font-weight: bold;
+}

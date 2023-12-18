@@ -1,0 +1,63 @@
+.projectContainer {
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.projectTitle {
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.projectContent {
+  display: flex;
+  margin-top: 100px;
+}
+
+.projectLeft {
+  margin-left: 200px;
+}
+
+.projectImage {
+  width: 470px;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.projectRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.contentTitle {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration-color: orange;
+  text-transform: uppercase;
+}
+
+.contentDescription {
+  width: 500px;
+  text-align: justify;
+}
+
+.contentLink a {
+  color: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contentLink a:hover {
+  color: orange;
+}

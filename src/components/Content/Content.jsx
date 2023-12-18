@@ -114,7 +114,7 @@ const Content = () => {
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"
+                href="https://www.linkedin.com/in/reinato-priantama/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none", color: "white" }}

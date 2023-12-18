@@ -96,6 +96,8 @@ const HeaderLanding = () => {
       </section>
       <div className={styles.wrapIcon} onClick={scrollToAbout}>
         <IoIosArrowDown className={styles.iconDecoration} />
+
+        {/* test */}
       </div>
     </div>
   );

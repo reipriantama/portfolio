@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reipriantama/portfolio/static/css/main.a21a169c.css",
+    "main.js": "/reipriantama/portfolio/static/js/main.e15a2cb6.js",
+    "static/js/787.58f15db9.chunk.js": "/reipriantama/portfolio/static/js/787.58f15db9.chunk.js",
+    "index.html": "/reipriantama/portfolio/index.html",
+    "main.a21a169c.css.map": "/reipriantama/portfolio/static/css/main.a21a169c.css.map",
+    "main.e15a2cb6.js.map": "/reipriantama/portfolio/static/js/main.e15a2cb6.js.map",
+    "787.58f15db9.chunk.js.map": "/reipriantama/portfolio/static/js/787.58f15db9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a21a169c.css",
+    "static/js/main.e15a2cb6.js"
+  ]
+}

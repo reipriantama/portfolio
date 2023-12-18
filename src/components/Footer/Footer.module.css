@@ -1,0 +1,13 @@
+.footerContainer {
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footerWrap {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+}

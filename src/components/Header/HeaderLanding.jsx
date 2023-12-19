@@ -5,8 +5,8 @@ import { IoIosArrowDown } from "react-icons/io";
 const HeaderLanding = () => {
   const [text, setText] = useState("");
   const name = "Reinato Priantama";
-  const speed = 150; // Kecepatan mengetik (ms)
-  const resetTime = 3000; // Waktu untuk reset teks (ms)
+  const speed = 150;
+  const resetTime = 3000;
 
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");
@@ -25,17 +25,17 @@ const HeaderLanding = () => {
         } else {
           clearInterval(typingInterval);
           setTimeout(() => {
-            setText(""); // Reset teks setelah 3 detik
-            currentIndex = 0; // Reset indeks
-            startTyping(); // Mulai kembali mengetik
+            setText("");
+            currentIndex = 0;
+            startTyping();
           }, resetTime);
         }
       }, speed);
     };
 
     setTimeout(() => {
-      startTyping(); // Mulai efek pengetikan setelah komponen dimount
-    }, 0); // Menggunakan timeout 0 agar mulai setelah rendering pertama
+      startTyping();
+    }, 0);
 
     return () => {
       clearInterval(typingInterval);

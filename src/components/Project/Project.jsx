@@ -8,19 +8,19 @@ const Project = () => {
       title: "BCR Client",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut necessitatibus enim, eligendi eaque eveniet consequuntur. Provident assumenda cupiditate mollitia officiis maxime illo, vel amet minima in voluptatibus excepturi commodi magnam.",
-      link: "asdasd",
+      link: "https://bcr-kelompok2-platinum-client.vercel.app/",
     },
     {
       image: `${process.env.PUBLIC_URL}/Assets/Project/bcrCms.png`,
       title: "BCR CMS",
       description: "John Dee 32, Bromo",
-      link: "Eddie Veder 18, Cimahi",
+      link: "https://bcr-kelompok2-platinum-cms.vercel.app/login",
     },
     {
       image: `${process.env.PUBLIC_URL}/Assets/Project/portfolio.png`,
       title: "Portofolio Website",
       description: "John Dee 32, Bromo",
-      link: "Lemi 40, Bandung",
+      link: "https://reinatopriantama.vercel.app/",
     },
   ]);
 

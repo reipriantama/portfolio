@@ -28,14 +28,14 @@
 
   margin-left: 100px;
 
-  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; /* Berubah: 'opacity' dan 'transform' */
-  opacity: 0; /* Awalnya akan disembunyikan */
+  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; 
+  opacity: 0; 
   transform: translateY(20px);
 }
 
 .aboutLeft.show {
-  opacity: 1; /* Menampilkan konten teks */
-  transform: translateY(0); /* Kembali ke posisi normal */
+  opacity: 1; 
+  transform: translateY(0); 
 }
 
 .aboutRight {
@@ -47,14 +47,14 @@
   margin-left: 50px;
   text-align: justify;
 
-  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; /* Berubah: 'opacity' dan 'transform' */
-  opacity: 0; /* Awalnya akan disembunyikan */
+  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; 
+  opacity: 0; 
   transform: translateY(20px);
 }
 
 .aboutRight.show {
-  opacity: 1; /* Menampilkan konten teks */
-  transform: translateY(0); /* Kembali ke posisi normal */
+  opacity: 1; 
+  transform: translateY(0); 
 }
 
 .rightIcon {

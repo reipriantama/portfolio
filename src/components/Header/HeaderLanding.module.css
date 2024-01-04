@@ -20,17 +20,17 @@
   margin-left: 20px;
   position: relative;
   text-decoration: none;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .navLink::after {
   content: "";
   position: absolute;
-  bottom: -20px; 
+  bottom: -20px;
   left: 0;
   width: 0;
   height: 2px;
-  background-color: orange; 
+  background-color: orange;
   transition: width 0.3s ease-in-out;
 }
 
@@ -68,7 +68,8 @@
 }
 
 .iconDecoration:hover {
-  color: orange; 
-  
+  color: orange;
 }
 
+@media only screen and (max-width: 600px) {
+}

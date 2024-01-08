@@ -74,9 +74,10 @@ const Content = () => {
             className={`${styles.aboutLeft} ${showContent ? styles.show : ""}`}
           >
             <img
+              className={styles.aboutImage}
               src={`${process.env.PUBLIC_URL}/Assets/Content/photoProfile.png`}
               alt="profileImage"
-              style={{ width: "413px" }}
+              // style={{ width: "413px" }}
             />
           </div>
           <div

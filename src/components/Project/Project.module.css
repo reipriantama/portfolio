@@ -66,7 +66,7 @@
   color: orange;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
   .projectContent {
     display: flex;
     /* flex-direction: column; */

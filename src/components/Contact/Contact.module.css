@@ -81,7 +81,7 @@
   color: orange;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
   .contactContent {
     display: flex;
     flex-direction: column-reverse;
@@ -108,7 +108,7 @@
   }
 
   .contactForm {
-    width: 330px;
+    max-width: 365px;
     border-radius: 0;
   }
 }

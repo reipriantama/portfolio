@@ -34,9 +34,9 @@ const Project = () => {
               <div className={styles.projectLeft}>
                 <div className={styles.projectImage}>
                   <img
+                    className={styles.imageSize}
                     src={item.image}
                     alt="project-pic"
-                    style={{ width: "450px" }}
                   />
                 </div>
               </div>
